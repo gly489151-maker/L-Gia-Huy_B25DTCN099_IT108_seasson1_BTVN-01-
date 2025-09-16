@@ -1,14 +1,9 @@
-BTVN 
- câu 1 Giả sử một bức ảnh có dung lượng 2 MB. Hãy tính toán:
-Dung lượng của ảnh này khi quy đổi ra byte.
-Dung lượng của 5 ảnh như vậy khi biểu diễn dưới dạng KB, MB và GB. 
-         giải ( sử dụng quy ước nhị phân IEC ) 
+1 video 500mb ( sử dụng quy ước nhị phân IEC )
+đổi sang kb 500x1024=512000kb
+đổi sang byte 500×1,048,576=524,288,000Byte
+đổi sang gb 500÷1024≈0.488GB
 
-1- dung lượng tấm ảnh  1mb  quy đổi ra byte là 1024 x 1024=  1048576 byte 
-   dung lượng tấm ảnh 2 mb quy đổi ra byte là 1048576x2=2097152 byte 
-
-2-dung lượng của 5 tấm ảnh 2mb là 5x2=10mb
-  dung lượng 5 ảnh đổi sang kb là 10x1024=10240 
-  dung lượng của 5 tấm ảnh đổi sang byte là 10x1048576=10485760
-  dung lượng của 5 tấm ảnh đổi sang gb là 10: 1024=0,00977 gb  
- 
+tài liệu word 50kb 
+1GB=1024×1024=1,048,576KB
+số tài liệu lưu đươc 
+1,048,576 : 50 = 20791 tài liệu 
