@@ -1,16 +1,9 @@
-so sánh dung lượng usb 16gb và ổ cứng 1tb 
-1tb=1024gb 
-usb=16gb 
-tỉ lê 1024:16=64 
-nên suy ra ổ cứng 1tb lớn gấp 64 lần usb 16gb
-sử dụng quy ước nhị phân 
-Số ảnh trong USB 16 GB
-16×1024=16,384MB 
-16384:2=8192 ảnh 
+Chu trình xử lý thông tin tổng quát gồm 4 bước cơ bản:
 
-Số ảnh trong ổ cứng 1tb là
+1-Nhập dữ liệu (Input): Thu thập và đưa dữ liệu thô (chữ, số, hình ảnh, âm thanh...) vào hệ thống thông qua các thiết bị như bàn phím, chuột, máy quét, cảm biến…
 
-1TB=1024GB=1024×1024=1,048,576MB 
-1,048,576:2=524288 ảnh 
+2-Xử lý dữ liệu (Processing): Máy tính hoặc phần mềm tiến hành tính toán, phân tích, biến đổi dữ liệu dựa trên thuật toán hay yêu cầu cụ thể để tạo ra thông tin có ý nghĩa.
 
+3-Lưu trữ (Storage): Dữ liệu và kết quả xử lý được lưu trong bộ nhớ (RAM, ổ cứng, cơ sở dữ liệu, đám mây…) để sử dụng ngay hoặc truy xuất về sau.
 
+4-Trình bày kết quả (Output): Thông tin được xuất ra dưới dạng dễ hiểu cho người dùng như văn bản, bảng biểu, báo cáo, hình ảnh, biểu đồ, hoặc thông qua các thiết bị như màn hình, loa, máy in.
