@@ -1,9 +1,16 @@
-1 video 500mb ( sử dụng quy ước nhị phân IEC )
-đổi sang kb 500x1024=512000kb
-đổi sang byte 500×1,048,576=524,288,000Byte
-đổi sang gb 500÷1024≈0.488GB
+so sánh dung lượng usb 16gb và ổ cứng 1tb 
+1tb=1024gb 
+usb=16gb 
+tỉ lê 1024:16=64 
+nên suy ra ổ cứng 1tb lớn gấp 64 lần usb 16gb
+sử dụng quy ước nhị phân 
+Số ảnh trong USB 16 GB
+16×1024=16,384MB 
+16384:2=8192 ảnh 
 
-tài liệu word 50kb 
-1GB=1024×1024=1,048,576KB
-số tài liệu lưu đươc 
-1,048,576 : 50 = 20791 tài liệu 
+Số ảnh trong ổ cứng 1tb là
+
+1TB=1024GB=1024×1024=1,048,576MB 
+1,048,576:2=524288 ảnh 
+
+
