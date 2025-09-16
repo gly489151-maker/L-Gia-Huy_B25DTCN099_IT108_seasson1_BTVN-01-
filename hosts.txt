@@ -1,34 +1,14 @@
 BTVN 
- cách chuyển đổi từ bit sang byte :
-  
-chia số bit cho 8, vì 1 byte bằng 8 bit
+ câu 1 Giả sử một bức ảnh có dung lượng 2 MB. Hãy tính toán:
+Dung lượng của ảnh này khi quy đổi ra byte.
+Dung lượng của 5 ảnh như vậy khi biểu diễn dưới dạng KB, MB và GB. 
+         giải ( sử dụng quy ước nhị phân IEC ) 
 
-Thực hiện phép toán thủ công để chuyển đổi 1024 bit thành byte.
- 1024 : 8 = 128byte 
+1- dung lượng tấm ảnh  1mb  quy đổi ra byte là 1024 x 1024=  1048576 byte 
+   dung lượng tấm ảnh 2 mb quy đổi ra byte là 1048576x2=2097152 byte 
 
-Lý giải tại sao 1 byte = 8 bit (đưa ra ví dụ hoặc ý nghĩa thực tế).
-
-
-Bit là đơn vị nhỏ nhất (0 hoặc 1), nhưng nếu chỉ có 1–2 bit thì số tổ hợp biểu diễn được rất ít.
-
-1 bit → chỉ có 2 giá trị (0, 1).
-
-2 bit → có 4 giá trị (00, 01, 10, 11).
-
-Máy tính cần nhiều tổ hợp hơn để biểu diễn ký tự (chữ, số, dấu…).
-
-👉 Người ta chọn 8 bit = 1 byte vì:
-
-8 bit có thể tạo ra 2⁸ = 256 tổ hợp, đủ để mã hóa các ký tự cơ bản: chữ cái, số, dấu chấm câu, ký hiệu… (theo bảng mã ASCII).
-
-8 bit vừa đủ tiện lợi cho phần cứng: nó là bội số của 2, dễ chia, dễ ghép trong hệ nhị phân.
-
-8 bit trở thành chuẩn công nghiệp để các máy tính có thể trao đổi dữ liệu thống nhất.
-
-💡 Ví dụ thực tế
-
-Chữ cái A trong bảng ASCII có mã thập phân là 65, khi đổi ra nhị phân sẽ là 01000001 → đúng 8 bit = 1 byte.
-
-Khi bạn gõ một ký tự bất kỳ trên bàn phím, bộ nhớ máy tính sẽ lưu trữ nó dưới dạng 1 byte (8 bit).
-
-👉 Tóm lại: 1 byte = 8 bit vì 8 bit vừa đủ tạo 256 tổ hợp, đủ để biểu diễn ký tự, tiện cho phần cứng, và được chọn làm chuẩn toàn cầu.
+2-dung lượng của 5 tấm ảnh 2mb là 5x2=10mb
+  dung lượng 5 ảnh đổi sang kb là 10x1024=10240 
+  dung lượng của 5 tấm ảnh đổi sang byte là 10x1048576=10485760
+  dung lượng của 5 tấm ảnh đổi sang gb là 10: 1024=0,00977 gb  
+ 
