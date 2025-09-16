@@ -1,35 +1,34 @@
- BTVN cơ bản 1 đơn vị cơ bản trong máy tính
+BTVN 
+ cách chuyển đổi từ bit sang byte :
+  
+chia số bit cho 8, vì 1 byte bằng 8 bit
 
-1_ Bit (viết tắt của Binary digit) là đơn vị dữ liệu nhỏ nhất trong máy tính, chỉ có thể nhận một trong hai giá trị: 0 hoặc 1. Máy tính sử dụng bit để biểu diễn và xử lý thông tin dưới dạng hệ nhị phân. 
+Thực hiện phép toán thủ công để chuyển đổi 1024 bit thành byte.
+ 1024 : 8 = 128byte 
 
-
-2_Byte là một đơn vị dữ liệu gồm 8 bit ghép lại với nhau.
-Mỗi byte có thể biểu diễn được 256 giá trị khác nhau (từ 0 đến 255 trong hệ thập phân). Trong thực tế, một byte thường được dùng để lưu trữ một ký tự (chữ cái, số, dấu câu) trong máy tính. 
-
-
-3_Kilobyte (KB): ≈ 1.000 byte, thường dùng để đo kích thước các tệp văn bản nhỏ.
-
-Megabyte (MB): ≈ 1.000 KB, đủ để lưu trữ một vài bức ảnh hoặc một bài hát.
-
-Gigabyte (GB): ≈ 1.000 MB, thường dùng để đo dung lượng USB, thẻ nhớ hoặc dung lượng RAM.
-
-4_Terabyte (TB): ≈ 1.000 GB, thường dùng để đo dung lượng ổ cứng, lưu trữ được hàng trăm nghìn bức ảnh hoặc hàng nghìn bộ phim.
-
-bit < byte < kilobyte (KB) < megabyte (MB) < gigabyte (GB) < terabyte (TB)
-
-👉 Trong đó:
-
-1 byte = 8 bit
-
-1 KB ≈ 1.000 byte
-
-1 MB ≈ 1.000 KB
-
-1 GB ≈ 1.000 MB
-
-1 TB ≈ 1.000 GB
+Lý giải tại sao 1 byte = 8 bit (đưa ra ví dụ hoặc ý nghĩa thực tế).
 
 
-5_Nêu rõ hai quy ước chuyển đổi và giải thích sự khác nhau:
-Quy ước binary (IEC): dùng lũy thừa của 2 → 1 KB = 1024 bytes, 1 MB = 1024 KB, ...
-Quy ước decimal (SI): dùng lũy thừa của 10 → 1 KB = 1000 bytes, 1 MB = 1000 KB, ...
+Bit là đơn vị nhỏ nhất (0 hoặc 1), nhưng nếu chỉ có 1–2 bit thì số tổ hợp biểu diễn được rất ít.
+
+1 bit → chỉ có 2 giá trị (0, 1).
+
+2 bit → có 4 giá trị (00, 01, 10, 11).
+
+Máy tính cần nhiều tổ hợp hơn để biểu diễn ký tự (chữ, số, dấu…).
+
+👉 Người ta chọn 8 bit = 1 byte vì:
+
+8 bit có thể tạo ra 2⁸ = 256 tổ hợp, đủ để mã hóa các ký tự cơ bản: chữ cái, số, dấu chấm câu, ký hiệu… (theo bảng mã ASCII).
+
+8 bit vừa đủ tiện lợi cho phần cứng: nó là bội số của 2, dễ chia, dễ ghép trong hệ nhị phân.
+
+8 bit trở thành chuẩn công nghiệp để các máy tính có thể trao đổi dữ liệu thống nhất.
+
+💡 Ví dụ thực tế
+
+Chữ cái A trong bảng ASCII có mã thập phân là 65, khi đổi ra nhị phân sẽ là 01000001 → đúng 8 bit = 1 byte.
+
+Khi bạn gõ một ký tự bất kỳ trên bàn phím, bộ nhớ máy tính sẽ lưu trữ nó dưới dạng 1 byte (8 bit).
+
+👉 Tóm lại: 1 byte = 8 bit vì 8 bit vừa đủ tạo 256 tổ hợp, đủ để biểu diễn ký tự, tiện cho phần cứng, và được chọn làm chuẩn toàn cầu.
